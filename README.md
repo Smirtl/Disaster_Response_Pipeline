@@ -41,14 +41,14 @@ Use the SPACEID and SPACEDOMAIN, replace the corresponding parts in the URL belo
 URL: `https://SPACEID-3001.SPACEDOMAIN`
 
 ## Python Libraries
-Libraries for the `process_data.py` script:
+### Libraries for the `process_data.py` script:
 
 * `import numpy as np`  
 * `import pandas as pd`  
 * `from sqlalchemy import create_engine`  
 * `import pickle`  
 
-Libraries for the `train_classifier.py` script:
+### Libraries for the `train_classifier.py` script:
 
 General libraries for data handling and loading:
 * `import numpy as np`  
@@ -72,32 +72,28 @@ ML libraries:
 * `from sklearn.model_selection import GridSearchCV`
 * `from sklearn.metrics import classification_report`
 * `from sklearn.base import BaseEstimator, TransformerMixin`
-
 * `import pickle`
 
 Starting Verb Extractor:
 * `from starting_verb_extractor import StartingVerbExtractor`
 
-Libraries for the `train_classifier.py` script:
+### Libraries for the `train_classifier.py` script:
 
 * `import json`
 * `import plotly`
 * `import pandas as pd`
-
 * `from nltk.stem import WordNetLemmatizer`
 * `from nltk.tokenize import word_tokenize`
-
 * `from flask import Flask`
 * `from flask import render_template, request, jsonify`
 * `from plotly.graph_objs import Bar`
-* `from sklearn.externals import joblib`
+* `from sklearn.externals import joblib` 
 * `from sqlalchemy import create_engine`
-
 * `from starting_verb_extractor import StartingVerbExtractor`
 
 ## Output
 The website has two main functionalities. The main pages shows an overview over the data with plotly graphs. The search bar allows for ad hoc analysis of a disaster message showing the related categories.#
-Have a look at the `screenshot.jpg` to get an idea of the visuals.
+Have a look at `screenshot_1.jpg` and `screenshot_2.jpg` to get an idea of the visuals.
 
 ## Data Considerations
 Since there aren't a lot of data points for several of the disaster categories,
