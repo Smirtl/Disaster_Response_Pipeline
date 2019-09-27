@@ -77,7 +77,7 @@ ML libraries:
 Starting Verb Extractor:
 * `from starting_verb_extractor import StartingVerbExtractor`
 
-### Libraries for the `train_classifier.py` script:
+### Libraries for the `run.py` script:
 
 * `import json`
 * `import plotly`
@@ -87,7 +87,7 @@ Starting Verb Extractor:
 * `from flask import Flask`
 * `from flask import render_template, request, jsonify`
 * `from plotly.graph_objs import Bar`
-* `from sklearn.externals import joblib` 
+* `from sklearn.externals import joblib`
 * `from sqlalchemy import create_engine`
 * `from starting_verb_extractor import StartingVerbExtractor`
 
